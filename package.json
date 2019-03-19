@@ -1,8 +1,7 @@
 {
   "version": "3.0.0",
-  "name": "gatsby-starter-lumen",
-  "description": "A minimal, lightweight and mobile-first starter for creating blazing-fast static blogs",
-  "main": "n/a",
+  "name": "personal-site",
+  "description": "A minimal site, that documents my articles, projects and accomplishments",
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
@@ -12,27 +11,9 @@
     "lint:scss": "stylelint \"src/**/*.scss\"",
     "lint": "concurrently \"yarn run lint:js\" \"yarn run lint:scss\""
   },
-  "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "repository": "https://github.com/teddyotieno/personal-site",
+  "author": "Teddy Otieno Asola",
   "license": "MIT",
-  "keywords": [
-    "gatsby",
-    "graphql",
-    "netlify",
-    "netlify-cms",
-    "pagination",
-    "categories",
-    "tags",
-    "prismjs",
-    "static",
-    "lost",
-    "blog",
-    "minimal",
-    "react",
-    "theme",
-    "starter",
-    "disqus"
-  ],
   "dependencies": {
     "bluebird": "^3.5.2",
     "classnames": "^2.2.6",
