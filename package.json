@@ -3,7 +3,7 @@
   "name": "personal-site",
   "description": "A minimal site, that documents my articles, projects and accomplishments",
   "scripts": {
-    "develop": "yarn run clean && gatsby develop",
+    "dev": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
     "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",
     "clean": "rimraf .cache public",
@@ -76,7 +76,6 @@
     "identity-obj-proxy": "3.0.0",
     "lost": "8.3.1",
     "postcss-pxtorem": "4.0.1",
-    "react-test-renderer": "16.8.4",
     "rimraf": "2.6.3",
     "stylelint": "9.10.1",
     "stylelint-config-recommended-scss": "3.2.0",
