@@ -13,19 +13,11 @@ module.exports = {
       label: 'Articles',
       path: '/'
     },
-    {
-      label: 'About me',
-      path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
   ],
   author: {
     name: 'Teddy Otieno Asola',
     photo: '/photo.jpg',
-    bio: 'Passionate JavaScript developer with a strong preference for web development and it\'s technologies.',
+    bio: 'Passionate JavaScript Developer',
     contacts: {
       email: 'asolatotieno@gmail.com',
       twitter: 'Tedotieno',
