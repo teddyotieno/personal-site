@@ -1,26 +1,32 @@
 'use strict';
 
 module.exports = {
-  url: 'https://teddyotieno.dev',
+  url: 'https://tedotieno.dev',
   title: 'Teddy Otieno Asola',
   subtitle: 'A man has no bio :)',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: '',
   menu: [
     {
       label: 'Articles',
       path: '/'
     },
+    {
+      label: 'Projects',
+      path: '/pages/projects'
+    },
+    {
+      label: 'Cool Stuff',
+      path: '/pages/cool-stuff'
+    },
   ],
   author: {
     name: 'Teddy Otieno Asola',
     photo: '/photo.jpg',
-    bio: 'Passionate JavaScript Developer',
+    bio: 'Creative Developer',
     contacts: {
       email: 'asolatotieno@gmail.com',
-      twitter: 'Tedotieno',
+      twitter: 'tedotieno',
       github: 'teddyotieno',
     }
   }

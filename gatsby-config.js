@@ -9,7 +9,6 @@ module.exports = {
     title: siteConfig.title,
     subtitle: siteConfig.subtitle,
     copyright: siteConfig.copyright,
-    disqusShortname: siteConfig.disqusShortname,
     menu: siteConfig.menu,
     author: siteConfig.author
   },
@@ -121,10 +120,6 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
       }
-    },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: siteConfig.googleAnalyticsId }
     },
     {
       resolve: 'gatsby-plugin-sitemap',

@@ -5,16 +5,10 @@ import ReactDisqusComments from 'react-disqus-comments';
 export const PureComments = ({ data, postTitle, postSlug }) => {
   const {
     url,
-    disqusShortname
   } = data.site.siteMetadata;
-
-  if (!disqusShortname) {
-    return null;
-  }
 
   return (
     <ReactDisqusComments
-      shortname={disqusShortname}
       identifier={postTitle}
       title={postTitle}
       url={url + postSlug}
@@ -28,7 +22,6 @@ export const Comments = (props) => (
       query CommentsQuery {
         site {
           siteMetadata {
-            disqusShortname
             url
           }
         }
