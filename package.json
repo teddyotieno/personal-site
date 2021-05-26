@@ -62,7 +62,7 @@
     "autoprefixer": "9.5.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.1",
-    "browserslist": "4.5.1",
+    "browserslist": "4.16.5",
     "concurrently": "4.1.0",
     "eslint": "5.15.3",
     "eslint-config-airbnb-base": "13.1.0",
